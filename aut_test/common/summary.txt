@@ -1,0 +1,15 @@
+hdfs mkdir test ----------[success]
+hdfs put test ----------[success]
+hdfs copy test ----------[success]
+hdfs download test ----------[success]
+mr2 work test ----------[success]
+hive create_table ----------[success]
+hive load_data ----------[success]
+hive query_data ----------[success]
+hive delete_table ----------[success]
+
+hbase create_table ----------[success]
+hbase addData ----------[success]
+hbase query_data ----------[success]
+hbase delete_table ----------[success]
+
