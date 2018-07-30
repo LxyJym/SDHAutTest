@@ -6,6 +6,7 @@ if [ $? -eq 0 ]; then
     hdfs dfs -mkdir /auttest/
     ../common/printresult.sh 'hdfs' 'mkdir' $?
 else
+      hdfs dfs -mkdir /auttest/
      ../common/printresult.sh 'hdfs' 'mkdir' $?
 fi
 sleep 1

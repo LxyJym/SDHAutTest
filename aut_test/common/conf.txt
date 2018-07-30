@@ -1,0 +1,7 @@
+hiveserverip,10.0.37.189:10000
+
+user,root
+
+password,xdata123
+
+hbaseconfurl,/etc/hbase/2.6.4.0-91/0/
